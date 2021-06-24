@@ -20,7 +20,7 @@ def to_boolean(bool_):
 
 
 def _is_empty_string(string_):
-    return string_ is not ''
+    return string_ != ''
 
 
 def to_argv(string_):
