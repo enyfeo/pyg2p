@@ -10,8 +10,7 @@ mod_version=${1:-3.0.0}
 if [[ $# -gt 0 ]]; then shift; fi
 hosts=${@:-lxc lxop cca ccb}
 
-#assets_version=$mod_version
-assets_version=3.0.0
+assets_version=$mod_version
 
 echo "module version to be installed: $mod_version"
 echo "on hosts: $hosts"
